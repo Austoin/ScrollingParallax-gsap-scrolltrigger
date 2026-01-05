@@ -4,7 +4,7 @@
 
 ## 演示视频
 
-![演示视频](0.mp4)
+<video src="0.mp4" controls width="600"></video>
 
 ## 项目结构
 
