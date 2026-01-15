@@ -321,3 +321,139 @@ section {
 .footer__div span {
 	display: inline-block;
 }
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+	:root {
+		--fz-big: 32px;
+	}
+
+	section {
+		padding-top: 80px;
+		padding-bottom: 30px;
+	}
+
+	.content {
+		padding: 0 20px;
+	}
+
+	/* Header */
+	.header {
+		padding: 0 20px;
+	}
+
+	.title {
+		font-size: 36px;
+	}
+
+	.header__img {
+		width: 80%;
+		right: 10px;
+	}
+
+	.header__marq-wrapp {
+		padding: 8px 20px;
+	}
+
+	.header__marq-txt {
+		font-size: 18px;
+		padding-right: 30px;
+	}
+
+	.header__marq-star {
+		width: 24px;
+		height: 24px;
+	}
+
+	/* Section Title */
+	.section-title {
+		font-size: 36px;
+		margin-bottom: 30px;
+	}
+
+	.section-title__square {
+		width: 80px;
+		height: 80px;
+	}
+
+	/* About */
+	.about__wrapp {
+		flex-direction: column;
+	}
+
+	.about__img,
+	.about__txt {
+		width: 100%;
+	}
+
+	.about__txt {
+		padding-right: 20px;
+		padding-left: 20px;
+		margin-top: 30px;
+	}
+
+	.about__img {
+		height: 50vh;
+	}
+
+	.about__p {
+		font-size: 16px;
+	}
+
+	/* Benefits */
+	.benefits__item {
+		width: 100%;
+	}
+
+	.benefits__num {
+		font-size: 40px;
+	}
+
+	.benefits__p {
+		font-size: 16px;
+	}
+
+	/* Work */
+	.work {
+		padding-top: 80px;
+	}
+
+	.work__wrapp {
+		padding: 0 20px;
+		row-gap: 60px;
+	}
+
+	.work__item {
+		width: 100%;
+		height: 50vh;
+	}
+
+	.work__item-num {
+		font-size: 40px;
+	}
+
+	/* Services */
+	.serv__item {
+		padding: 25px 0;
+	}
+
+	.serv__item-arrow {
+		width: 35px;
+		height: 35px;
+	}
+
+	.serv__item-txt {
+		font-size: 24px;
+		padding-right: 50px;
+	}
+
+	/* Footer */
+	.footer {
+		height: 50vh;
+	}
+
+	.footer__div {
+		font-size: 32px;
+		letter-spacing: 8px;
+	}
+}
